@@ -1,0 +1,2 @@
+# expence_tracker
+The Personal Expense Tracker is a simple and practical C++ console application designed to help users track daily expenses efficiently. It allows you to add, view, and analyze your spending habits in various categories like food, travel, bills, and more.  The project uses basic file handling and object-oriented programming concepts to store expenses in a text file, ensuring that data persists across program runs. With a user-friendly menu interface, it's perfect for beginners learning C++ and real-life application development.
