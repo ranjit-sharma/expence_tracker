@@ -1,4 +1,4 @@
-# personal Expence Tracker
+# Personal Expence Tracker
 This is a simple and powerful console-based C++ application that allows users to track daily expenses like food, travel, shopping, and more. It saves every entry into a file so you can manage your spending over time.
 
 It is especially useful for students, freelancers, or anyone who wants to monitor their financial habits from the terminal.
