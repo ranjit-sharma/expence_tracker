@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Expense Tracker | C++ Project</title>
+
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>📊 Personal Expense Tracker</h1>
+    <p><strong>Language:</strong> C++</p>
+
+    <h2>🔹 Description</h2>
+    <p>This is a simple console-based application that allows users to add, view, and manage daily expenses. It's
+      written in C++ and stores data in a text file.</p>
+
+    <h2>🔹 Features</h2>
+    <ul>
+      <li>Add daily expense records (amount, category)</li>
+      <li>Display all recorded expenses</li>
+      <li>Filter expenses by category</li>
+      <li>Save data in a file</li>
+    </ul>
+
+    <h2>🔹 Sample Code</h2>
+    <pre>
+#include &lt;iostream&gt;
+#include &lt;fstream&gt;
+using namespace std;
+
+int main() {
+    ofstream file("expenses.txt", ios::app);
+    string category;
+    float amount;
+    cout &lt;&lt; "Enter category: ";
+    cin &gt;&gt; category;
+    cout &lt;&lt; "Enter amount: ";
+    cin &gt;&gt; amount;
+    file &lt;&lt; category &lt;&lt; " " &lt;&lt; amount &lt;&lt; endl;
+    file.close();
+    cout &lt;&lt; "Expense added!" &lt;&lt; endl;
+    return 0;
+}
+    </pre>
+
+    <h2>🔹 How to Install & Run</h2>
+    <ul>
+      <li>✅ Make sure a C++ compiler like <strong>g++</strong> is installed.</li>
+      <li>✅ Save the code in a file named <code>expense_tracker.cpp</code>.</li>
+      <li>✅ Open terminal / command prompt in the file's directory.</li>
+      <li>🔧 Compile using: <code>g++ expense_tracker.cpp -o tracker</code></li>
+      <li>🚀 Run using: <code>./tracker</code> (Linux/macOS) or <code>tracker.exe</code> (Windows)</li>
+    </ul>
+
+    <a class="button" href="expense_tracker.cpp" download>⬇️ Download C++ Code</a>
+
+    <h2>🔹 Output Screenshot</h2>
+    <img src="C:\Users\ranji\Desktop\Project\Screenshot 2025-08-10 023448.png" alt="Expense Tracker Output" height="550px" width="1300px"/>
+
+    <h2>🔹 Demo Video of How to Add Expenses</h2>
+    <video width="1300" height="550" controls>>
+      <source src="expense_tracker.mp4" type="video/mp4">
+      Your browser doesn't support the video tag.
+    </video>
+
+    <div class="footer">
+      🧑‍💻 Developed by Ranjit Sharma
+    </div>
+  </div>
+</body>
+
+</html>

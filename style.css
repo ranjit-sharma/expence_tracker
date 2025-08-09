@@ -1,0 +1,89 @@
+ * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      color: #fff;
+      padding: 40px;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      background-color: rgba(0, 0, 0, 0.65);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 30px #00ffc3;
+      border: 1px solid #00ffc3;
+      animation: glow 4s infinite alternate;
+    }
+
+    @keyframes glow {
+      from {
+        box-shadow: 0 0 10px #00ffc3;
+      }
+
+      to {
+        box-shadow: 0 0 30px #ff00cc;
+      }
+    }
+
+    h1,
+    h2 {
+      color: #00ffc3;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    pre {
+      background-color: #111;
+      padding: 20px;
+      border-radius: 10px;
+      overflow-x: auto;
+      font-size: 14px;
+      border: 1px solid #444;
+      margin-bottom: 30px;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 12px 25px;
+      background: linear-gradient(to right, #00f2fe, #4facfe);
+      color: #000;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+
+    a.button:hover {
+      background: linear-gradient(to right, #43e97b, #38f9d7);
+      transform: scale(1.05);
+    }
+
+    img,
+    video {
+      max-width: 100%;
+      border-radius: 10px;
+      margin: 20px 0;
+      border: 2px solid #00ffc3;
+    }
+
+    .footer {
+      margin-top: 50px;
+      text-align: center;
+      color: #00ffc3;
+      font-size: 18px;
+      font-weight: bold;
+      border-top: 1px solid #444;
+      padding-top: 20px;
+    }
